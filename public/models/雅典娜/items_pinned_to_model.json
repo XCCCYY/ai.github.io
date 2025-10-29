@@ -1,0 +1,94 @@
+{
+    "FileMetadata": {
+        "LastSavedVTubeStudioVersion": "1.28.15",
+        "LastSavedPlatform": "Steam",
+        "LastSavedDateUTC": "Friday, 15 March 2024, 10:59:13",
+        "LastSavedDateLocalTime": "Friday, 15 March 2024, 18:59:13",
+        "LastSavedDateUnixMillisecondTimestamp": "1710500353367"
+    },
+    "SceneName": "",
+    "SceneGroupName": "",
+    "SceneModel": "",
+    "SceneID": "",
+    "Items": [
+        {
+            "ItemName": "461480-55e7ff014bc37f63894872c262884756",
+            "ItemObjectInScene": {
+                "m_FileID": -58134,
+                "m_PathID": 0
+            },
+            "ItemFileName": "461480-55e7ff014bc37f63894872c262884756.gif",
+            "ItemInstanceUUID": "c44c03fb240d429398c2f611215107f3",
+            "Selected": true,
+            "TrackingModel": true,
+            "IsAnimated": true,
+            "IsVideo": false,
+            "IsModel": false,
+            "IsCensored": false,
+            "IsFlipped": false,
+            "IsLocked": false,
+            "Smoothing": 0.0,
+            "Order": 1,
+            "FPS": 33.333335876464847,
+            "IsPinned": true,
+            "PinnedTo": "ArtMesh157",
+            "PinnedModel_Live2D": "YaDianNa",
+            "PinnedModel_VTS": "YaDianNa",
+            "PinnedModel_InternalID": "807cd23bfd9d405dbe053bc7a7b60f06",
+            "PinnedVertexIDs": "44 35 33 36 42 37",
+            "PinnedVertexPositions": [
+                {
+                    "x": -0.03199876844882965,
+                    "y": 0.3028075695037842,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.026619644835591317,
+                    "y": 0.29986029863357546,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.033082135021686557,
+                    "y": 0.3085716962814331,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.019347723573446275,
+                    "y": 0.2997700273990631,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.026881519705057145,
+                    "y": 0.29256969690322878,
+                    "z": 0.0
+                },
+                {
+                    "x": -0.022969288751482965,
+                    "y": 0.29264914989471438,
+                    "z": 0.0
+                }
+            ],
+            "PinnedVertexCenterOffset": {
+                "x": -0.001289738342165947,
+                "y": 0.0048292577266693119,
+                "z": 0.0
+            },
+            "Size": 0.060965586453676227,
+            "ModelScaleMultiplier": 0.009051164612174034,
+            "Rotation": 2.894052505493164,
+            "Position": {
+                "x": -0.03005438670516014,
+                "y": 0.3051457405090332,
+                "z": 0.0
+            },
+            "Group": "",
+            "Scene": "",
+            "AssetType": 2,
+            "FromWorkshop": false,
+            "FromHotkey": false,
+            "FromAPI": false,
+            "FadeTime": 0.5,
+            "Plugin": ""
+        }
+    ]
+}

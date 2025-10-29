@@ -1,0 +1,46 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "YaDianNa.moc3",
+		"Textures": [
+			"YaDianNa.8192/texture_00_resized.png"
+		],
+		"Physics": "YaDianNa.physics3.json",
+		"DisplayInfo": "YaDianNa.cdi3.json",
+		"Motions": [
+			{
+				"File": "/models/雅典娜/motions/Idle.motion3.json"
+			},
+			{
+				"File": "/models/雅典娜/motions/jingya.motion3.json"
+			},
+			{
+				"File":"/models/雅典娜/motions/kaixin.motion3.json"
+			},
+			{
+				"File":"/models/雅典娜/motions/shengqi.motion3.json"
+			},
+			{
+				"File":"/models/雅典娜/motions/shuijiao.motion3.json"
+			},
+			{
+				"File":"/models/雅典娜/motions/wink.motion3.json"
+			},
+			{
+				"File":"/models/雅典娜/motions/yaotou.motion3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
