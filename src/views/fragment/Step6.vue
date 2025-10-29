@@ -35,27 +35,31 @@ const stopListening = () => {
 }
 
 // 发送用户语音到后端并获取回复
+// ✅ 正确：调用你自己的后端 API
 const sendToLLM = async (text) => {
-    // 添加用户消息
-    messages.value.push({ role: 'user', content: text })
-
     try {
-        const res = await fetch('https://your-llm-api.com/chat', {
+        // ✅ 改为调用本地 /api/chat
+        const res = await fetch('/api/chat', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ prompt: text })
+            body: JSON.stringify({ message: text })
         })
-        const data = await res.json()
-        const reply = data.reply || '我听到了，但不知道怎么回答。'
 
-        // 添加 AI 回复
+        const data = await res.json()
+        const reply = data.reply || '我暂时无法联网，但很高兴见到你！'
+
+        // ✅ 添加到对话历史
+        messages.value.push({ role: 'user', content: text })
         messages.value.push({ role: 'ai', content: reply })
 
-        // 让模型说话
+        // ✅ 让模型说话
         speak(reply)
-    } catch (err) {
-        console.error('LLM 请求失败:', err)
-        speak('网络出错，我暂时无法回答。')
+    } catch (error) {
+        console.error('Request failed:', error)
+        const fallback = '我暂时无法联网，但很高兴见到你！'
+        messages.value.push({ role: 'user', content: text })
+        messages.value.push({ role: 'ai', content: fallback })
+        speak(fallback)
     }
 }
 
